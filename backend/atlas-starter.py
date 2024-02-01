@@ -15,7 +15,12 @@ from bson.objectid import ObjectId
 
 app = Flask(__name__)
 CORS(app)
-uri = "mongodb+srv://harrisibrahim:9876543210!@cluster0.z3vfhb9.mongodb.net/?retryWrites=true&w=majority"
+uri = "mongodb+srv://harrisibrahim:ZfD3b2PVhbZrwy6f@cluster0.z3vfhb9.mongodb.net/"
+
+#"mongodb+srv://harrisibrahim:9876543210!@cluster0.z3vfhb9.mongodb.net/?retryWrites=true&w=majority"
+
+
+
 
 #mongodb+srv://harrisibrahim:9876543210!@cluster0.z3vfhb9.mongodb.net/?retryWrites=true&w=majority
 #client = MongoClient('mongodb://arrisibrahim:9876543210!@localhost:27017/prod-db')
